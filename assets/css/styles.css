@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+
+}
+:root {
+  --primary-color: #143C3C;
+  --font-heading: "Poppins", sans-serif;
+
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Public Sans", sans-serif;
+
+}
+
+/* =====================Common============================== */
+a{
+    text-decoration: none;
+}
+
+input,textarea, select,button {
+    font-family: inherit;
+    font-size: inherit;
+
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+
+}
+
+/* =============================Header top================================= */
+.header {
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+    margin-top: 28px;
+
+}
+.navbar .navbar__list {
+    display: flex;
+
+}
+.header-action__login,
+.navbar__link {
+    padding: 4px 21px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #fff;
+
+}
+.navbar__link:hover,
+.navbar__link--active {
+    color:#fff;
+    text-shadow: 1px 0 0 currentColor;
+
+}
+.navbar__link--active::before {
+    position: relative;
+    top: -2px;
+    left: -8px;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+
+}
+.header-action {
+    display: flex;
+    align-items: center;
+}
+
+.header-action__login {
+    margin-right: 7px;
+}
+.header-action__signup{
+    --height: 44px;
+    min-width: 104px;
+
+}
+/* ============================================================================== */
