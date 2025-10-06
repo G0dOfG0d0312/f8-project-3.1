@@ -86,10 +86,11 @@
       <div class="main-content">
         <div class="header-top">
           <!-- Logo -->
-
-          <div class="logo">
+          <a href="/"> <div class="logo">
             <img src="./assets/img/logo.svg" alt="Logo" />
           </div>
+          </a>
+         
           <!-- Navbar -->
           <nav class="navbar">
             <ul class="navbar__list">
@@ -235,32 +236,25 @@
     <section class="banner">
       <div class="main-content">
         <div class="main-banner">
-          <div class="google">
-            <h3 class="title">Google</h3>
-          </div>
+            <h3 class="google">Google</h3>
 
           <div class="slack">
-            <img src="./assets/icons/Mask.svg" alt="" class="mask" />
+            <img src="./assets/icons/Slack.svg" alt="" class="slack" />
           </div>
-          <div class="slack__title">
-            <h3 class="title1">slack</h3>
+         
+          <div class="computer">
+            <img src="./assets/icons/Computer.svg" alt="" class="" />
+            <h3 class="agworld">Agworld</h3>
           </div>
-          <div class="agworld">
-            <img src="./assets/icons/Mask1.svg" alt="" class="mask1" />
-          </div>
-          <div class="agworld__title">
-            <h3 class="title2">Agworld</h3>
-          </div>
-          <div class="riotinto__title">
-            <img src="./assets/icons/RioTinto.svg" alt="" />
-          </div>
+          
+          <h3 class="riotinto">
+              RioTinto
+          </h3>
 
           <div class="heroku">
-            <img src="./assets/icons/Mask2.svg" alt="" class="mask2" />
+            <img src="./assets/icons/Heroku.svg" alt="" class="heroku" />
           </div>
-          <div class="heroku__title">
-            <h3 class="title4">HEROKU</h3>
-          </div>
+          
         </div>
       </div>
     </section>
@@ -288,32 +282,34 @@
         <div class="service__bottom">
           <div class="service__item">
             <img src="./assets/img/branding.svg" alt="" />
-            <h3 class="service__bottom-title">Branding</h3>
-            <p class="service__bottom-desc">
-              Create beautiful Agency website with Boluethat converts more
-              visitors than any website.
-            </p>
+            <div class="service__item-card">
+               <h3 class="service__bottom-title">Branding</h3>
+                <p class="service__bottom-desc">
+                 Create beautiful Agency website with Boluethat converts more
+                  visitors than any website.
+                </p>
+            </div>
           </div>
           <div class="service__item">
             <img src="./assets/img/webdesign.svg" alt="" />
+            <div class="service__item-card">
             <h3 class="service__bottom-title">Web Design</h3>
-            <p class="service__bottom-desc">
-              Create beautiful Agency website with Boluethat converts more
-              visitors than any website.
-            </p>
+              <p class="service__bottom-desc">
+                Create beautiful Agency website with Boluethat converts more
+                visitors than any website.
+              </p>
+            </div>
+            
           </div>
-          <div class="service__item3">
-            <img src="./assets/img/graphicdesign.svg" alt="" />
-            <div class="service__item-rectangle">
-              <div class="rectangle__top"></div>
-              <div class="rectangle__bottom">
+          <div class="service__item">
+              <img src="./assets/img/graphicdesign.svg" alt="" />
+              <div class="service__item-card">
                 <h3 class="service__bottom-title">Graphic Design</h3>
                 <p class="service__bottom-desc">
                   Create beautiful Agency website with Boluethat converts more
                   visitors than any website.
                 </p>
               </div>
-            </div>
           </div>
         </div>
       </div>
@@ -654,6 +650,25 @@
                 <div class="blog__bottom-group">
                   <div class="blog__bottom-item">
                       <img src="./assets/img/design sprints.svg" alt="">
+                      <div class="blog__bottom-card">
+                        <button class="btn-story">
+                          <h3 class="stories">STORIES</h3>
+                        </button>
+                        <p class="item__desc">
+                          What did we learn from nunning over 100 design sprints in less the year?
+                        </p>
+                        <div class="line">
+                        
+                        </div>
+                        <div class="daymonthyear">
+                       
+                          <img src="./assets/img/JANUARY 29, 2022.svg" alt="">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="blog__bottom-item">
+                    <img src="./assets/img/UX design.svg" alt="" class="">
+                    <div class="blog__bottom-card">
                       
                       <button class="btn-story">
                         <h3 class="stories">STORIES</h3>
@@ -662,28 +677,9 @@
                         What did we learn from nunning over 100 design sprints in less the year?
                       </p>
                       <div class="line">
-                        
-                      </div>
-                      <div class="daymonthyear">
-                       
-                        <img src="./assets/img/JANUARY 29, 2022.svg" alt="">
-                      </div>
-                     
-                  </div>
-                  <div class="blog__bottom-item">
-                    <img src="./assets/img/UX design.svg" alt="" class="blog__bottom-img">
-                    <div class="blog__bottom-rectangle">
-                      
-                      <button class="btn-story">
-                        <h3 class="stories">STORIES</h3>
-                      </button>
-                      <p class="item__desc2">
-                        What did we learn from nunning over 100 design sprints in less the year?
-                      </p>
-                      <div class="line2">
 
                       </div>
-                      <div class="daymonthyear2">
+                      <div class="daymonthyear">
                         <img src="./assets/img/JANUARY 29, 2022.svg" alt="">
                       </div>
                     </div>
@@ -691,19 +687,21 @@
                   </div>
                   <div class="blog__bottom-item">
                       <img src="./assets/img/business marketing.svg" alt="">
-                      <button class="btn-story">
-                        <h3 class="stories">STORIES</h3>
-                      </button>
-                      <p class="item__desc">
+                      <div class="blog__bottom-card">
+                        <button class="btn-story">
+                          <h3 class="stories">STORIES</h3>
+                        </button>
+                        <p class="item__desc">
                         What did we learn from nunning over 100 design sprints in less the year?
-                      </p>
-                      <div class="line">
+                        </p>
+                        <div class="line">
 
-                      </div>
+                        </div>
                       <div class="daymonthyear">
                         <img src="./assets/img/JANUARY 29, 2022.svg" alt="">
                       </div>
-                  </div>
+                      </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -714,8 +712,11 @@
       </div>
     
         <!--------------------------Footer---------------------------------->
-  <footer class="footer" style="height: 5000px;">
+  <footer class="footer" >
     <div class="container">
+
+
+      <div class="detail" style="display: flex;">
         <div class="footer__left">
           <h3 class="footer__left-title">
               Sign up for our newsletter
@@ -800,7 +801,9 @@
             </div>
           </div>
         </div>
-         <div class="line__end">
+      </div>
+        
+         <div class="line__end" >
           
         </div>
     </div>
